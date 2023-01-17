@@ -1,4 +1,5 @@
 #pragma once
+#include "SystemClass.h"
 
 class D3DClass : public AlignedAllocationPolicy<16>
 {

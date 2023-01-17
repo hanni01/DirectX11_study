@@ -1,6 +1,6 @@
 #include "framework.h"
 #include "d3dclass.h"
-
+#include "SystemClass.h"
 
 D3DClass::D3DClass()
 {
@@ -20,6 +20,7 @@ D3DClass::~D3DClass()
 bool D3DClass::Initialize(int screenWidth, int screenHeight, bool vsync, HWND hwnd, bool fullscreen,
 	float screenDepth, float screenNear)
 {
+
 	// 수직동기화 상태를 저장합니다
 	m_vsync_enabled = vsync;
 

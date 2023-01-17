@@ -19,3 +19,5 @@
 #include <tchar.h>
 
 #include "DxDefine.h"
+#include "Mmsystem.h"
+#include "math.h"
